@@ -1,0 +1,108 @@
+{
+    "estaciones":[
+        {
+            "estacion": "primavera",
+            "index": "0",
+            "start": "0",
+            "end": "90",
+            "estado":[
+                {
+                    "condition": "muchoSol",
+                    "water": "-10",
+                    "abono": "-5",
+                    "temperatura": "-5"
+                },
+                {
+                    "condition": "pocoSol",
+                    "water": "-5",
+                    "abono": "-2",
+                    "temperatura": "0"
+                },
+                {
+                    "condition": "lluvia",
+                    "water": "10",
+                    "abono": "0",
+                    "temperatura": "-5"
+                }
+            ]
+        },
+        {
+            "estacion": "verano",
+            "index": "1",
+            "start": "91",
+            "end": "180",
+            "estado":[
+                {
+                    "condition": "muchoSol",
+                    "water": "-15",
+                    "abono": "-10",
+                    "temperatura": "-10"
+                },
+                {
+                    "condition": "pocoSol",
+                    "water": "-10",
+                    "abono": "-5",
+                    "temperatura": "-5"
+                },
+                {
+                    "condition": "lluvia",
+                    "water": "6",
+                    "abono": "2",
+                    "temperatura": "0"
+                }
+            ]
+        },
+        {
+            "estacion": "otonno",
+            "index": "2",
+            "start": "181",
+            "end": "270",
+            "estado":[
+                {
+                    "condition": "muchoSol",
+                    "water": "-8",
+                    "abono": "-2",
+                    "temperatura": "-5"
+                },
+                {
+                    "condition": "pocoSol",
+                    "water": "-5",
+                    "abono": "0",
+                    "temperatura": "0"
+                },
+                {
+                    "condition": "lluvia",
+                    "water": "13",
+                    "abono": "5",
+                    "temperatura": "0"
+                }
+            ]
+        },
+        {
+            "estacion": "invierno",
+            "index": "3",
+            "start": "271",
+            "end": "365",
+            "estado":[
+                {
+                    "condition": "muchoSol",
+                    "water": "-5",
+                    "abono": "0",
+                    "temperatura": "-5"
+                },
+                {
+                    "condition": "pocoSol",
+                    "water": "-1",
+                    "abono": "-1",
+                    "temperatura": "0"
+                },
+                {
+                    "condition": "lluvia",
+                    "water": "16",
+                    "abono": "10",
+                    "temperatura": "-5"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "Planta": [
+    {
+        "nombre": "Culantro",
+        "vitalidad" : "100",
+        "consumo": "5",
+        "vida": "80",
+        "estados":[
+            {
+                "nivel": "Almacigo",
+                "indice": "0",
+                "minAgua": "0",
+                "maxAgua": "50",
+                "minAbono": "10",
+                "maxAbono": "30",
+                "minEdad": "0",
+                "maxEdad": "10",
+                "aguaPositivo": "5",
+                "aguaNegativo": "-7",
+                "abonoPositivo": "5",
+                "abonoNegativo": "-3",
+                "imagen": "almacigoculantro.jpg"
+            },
+            {
+                "nivel": "Media",
+                "indice": "1",
+                "minAgua": "10",
+                "maxAgua": "60",
+                "minAbono": "20",
+                "maxAbono": "40",
+                "minEdad": "10",
+                "maxEdad": "30",
+                "aguaPositivo": "4",
+                "aguaNegativo": "-3",
+                "abonoPositivo": "5",
+                "abonoNegativo": "-4",
+                "imagen": "medianoculantro.jpg"
+            },
+            {
+                "nivel": "Adulto",
+                "indice": "2",
+                "minAgua": "20",
+                "maxAgua": "70",
+                "minAbono": "30",
+                "maxAbono": "50",
+                "minEdad": "30",
+                "maxEdad": "80",
+                "aguaPositivo": "5",
+                "aguaNegativo": "-2",
+                "abonoPositivo": "5",
+                "abonoNegativo": "-4",
+                "imagen": "adultoculantro.jpg"
+            },
+            {
+                "nivel": "Muerto",
+                "indice": "3",
+                "minAgua": "-1",
+                "maxAgua": "-1",
+                "minAbono": "-1",
+                "maxAbono": "-1",
+                "minEdad": "-1",
+                "maxEdad": "-1",
+                "aguaPositivo": "-1",
+                "aguaNegativo": "-1",
+                "abonoPositivo": "-1",
+                "abonoNegativo": "-1",
+                "imagen": "muertoculantro.jpg"
+            }
+        ]
+    },
+    {
+        "nombre": "Suculenta",
+        "vitalidad" : "100",
+        "consumo": "4",
+        "vida": "80",
+        "estados":[
+            {
+                "nivel": "Almacigo",
+                "indice": "0",
+                "minAgua": "0",
+                "maxAgua": "70",
+                "minAbono": "10",
+                "maxAbono": "40",
+                "minEdad": "0",
+                "maxEdad": "20",
+                "aguaPositivo": "5",
+                "aguaNegativo": "-10",
+                "abonoPositivo": "6",
+                "abonoNegativo": "-5",
+                "imagen": "almacigosuculenta.jpg"
+            },
+            {
+                "nivel": "Media",
+                "indice": "1",
+                "minAgua": "10",
+                "maxAgua": "80",
+                "minAbono": "20",
+                "maxAbono": "50",
+                "minEdad": "10",
+                "maxEdad": "30",
+                "aguaPositivo": "6",
+                "aguaNegativo": "-3",
+                "abonoPositivo": "4",
+                "abonoNegativo": "-5",
+                "imagen": "medianosuculenta.jpg"
+            },
+            {
+                "nivel": "Adulto",
+                "indice": "2",
+                "minAgua": "30",
+                "maxAgua": "90",
+                "minAbono": "30",
+                "maxAbono": "60",
+                "minEdad": "20",
+                "maxEdad": "40",
+                "aguaPositivo": "4",
+                "aguaNegativo": "-3",
+                "abonoPositivo": "6",
+                "abonoNegativo": "-7",
+                "imagen": "adultosuculenta.jpg"
+            },
+            {
+                "nivel": "Muerto",
+                "indice": "3",
+                "minAgua": "-1",
+                "maxAgua": "-1",
+                "minAbono": "-1",
+                "maxAbono": "-1",
+                "minEdad": "-1",
+                "maxEdad": "-1",
+                "aguaPositivo": "5",
+                "aguaNegativo": "-8",
+                "abonoPositivo": "7",
+                "abonoNegativo": "-5",
+                "imagen": "muertosuculenta.jpg"
+            }
+        ]
+    }
+]
+}
