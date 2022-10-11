@@ -36,17 +36,6 @@ public class PlantManager implements Constants, Observer{
 	public void update(Observable o, Object arg) {
 		SimulatorReport simReport = (SimulatorReport)arg;
 		evaluate(simReport);
-		/*
-		 * 
-		if (simReport.action.compareTo(UPDATE_DAYS)==0) {
-			
-		}
-		
-		if (simReport.action.compareTo(UPDATE_WEATHER)==0) {
-			updateTemperature(simReport.days, simReport.temperature);
-			updateWater(simReport.days, simReport.rain);
-		}
-		*/
 		
 	}
 }
