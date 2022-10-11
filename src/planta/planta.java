@@ -272,16 +272,6 @@ public class planta extends TipoPlantas implements Constants{
 			this.indice=indice+1;
 			changeStatus();
 		}
-		/*
-		ArrayList<StatusChangeRule> rulesparamiestado = reglas[currentState.getId()];
-
-		System.out.println("Evaluating plant type :"+ this.type);
-		for(int rule : rulesparamiestado) {
-			if (rule.getMinDays()<=getAgeinDays() && rule.getMaxDays()>=getAgeinDays()) {
-				this.currentState = rule.getNextState();
-				break;
-			}
-		}*/
 		
 	}
 	
